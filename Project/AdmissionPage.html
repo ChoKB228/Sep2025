@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admission</title>
+    <link rel="stylesheet" href="CssStyle.css">
+</head>
+<body>
+
+<form id="admissionForm">
+<header>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="CSLogo.jpg" alt="CS Logo" />
+            <h1>CS Department</h1>
+        </div>
+
+       
+
+        <ul id="menu">
+            <li><a href="HomePage.html">Home</a></li>
+            <li><a href="AboutUsPage.html">About Us</a></li>
+            <li><a href="ProgrammesPage.html">Programmes</a></li>
+            <li><a href="StudentProjectPage.html">Student Projects</a></li>
+            <li><a href="AdmissionPage.html"  class="active">Admission</a></li>
+            <li><a href="ContactUsPage.html">Contact Us</a></li>
+
+        </ul>
+    </nav>
+</header>
+
+<section class="section">
+    <h2>Admission</h2>
+    <p>Join us and begin your journey into the world of technology.  
+       Follow the steps below to apply for your preferred programme.</p>
+
+    <div class="admission-container">
+
+        <div class="admission-box">
+            <h3>📄 Entry Requirements</h3>
+            <ul>
+                <li>Must be 16 years old or above</li>
+                <li>Basic computer literacy</li>
+                <li>No prior programming knowledge required</li>
+                <li>Passion and interest in technology</li>
+            </ul>
+
+            <h3>🗂 Required Documents</h3>
+            <ul>
+                <li>Copy of Identification Card / Passport</li>
+                <li>Latest academic results</li>
+                <li>Passport-sized photo</li>
+            </ul>
+        </div>
+
+      
+        <div class="admission-form">
+            <h3>Online Registration Form</h3>
+
+            <form>
+                <label>Full Name</label>
+                <input type="text" placeholder="Enter your full name" required>
+
+                <label>Email</label>
+                <input type="email" placeholder="Enter your email" required>
+
+                <label>Phone Number</label>
+                <input type="text" placeholder="e.g. 012-3456789" required>
+
+                <label>Select Programme</label>
+                <select required>
+                    <option value="">-- Choose Programme --</option>
+                    <option>Diploma in Computer Science</option>
+                    <option>Diploma in Airline Service</option>
+                    <option>Diploma in Buisness</option>
+                </select>
+
+                <label>Why do you want to join this course?</label>
+                <textarea rows="5" placeholder="Write your reason..." required></textarea>
+
+                <button class="btn">Submit Application</button>
+            </form>
+        </div>
+    </div>
+
+</section>
+
+</body>
+</html>
